@@ -7,13 +7,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-body {
-   margin: 0;
- }
 
-p {
-  font-style: italic;
-  font-size: 1.125rem;
+body {
+  margin: 0;
 }
 
 header {
@@ -22,24 +18,35 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #e2e2e2;
-  padding: 1rem;
+  padding: .75em 1em .6em;
 }
 
-img {
+header h1 {
+  margin: 0 auto;
+}
+
+header p {
+  font-style: italic;
+  font-size: 1.125rem;
+}
+
+header img {
   order: -1;
   width: 2rem;
 }
 
-header nav > ul {
+nav ul {
   display: flex;
   list-style-type: none;
-  padding: 1em;
-  margin: .5rem;
 }
 
-nav > ul li a {
+nav a {
   padding: 1em;
   text-decoration: none;
   font-size: 1.125rem;
   color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
 }
