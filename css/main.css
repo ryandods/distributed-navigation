@@ -7,3 +7,39 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+   margin: 0;
+ }
+
+p {
+  font-style: italic;
+  font-size: 1.125rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2e2e2;
+  padding: 1rem;
+}
+
+img {
+  order: -1;
+  width: 2rem;
+}
+
+header nav > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1em;
+  margin: .5rem;
+}
+
+nav > ul li a {
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #0074d9;
+}
